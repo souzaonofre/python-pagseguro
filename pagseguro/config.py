@@ -18,7 +18,8 @@ class Config(dict):
                                             'notifications/%s'.format(version))
         transaction_suffix = '{}transactions/%s'.format(version)
         query_transaction_suffix = '{}transactions'.format(version)
-        ctype = 'application/x-www-form-urlencoded; charset=UTF-8'
+        #ctype = 'application/x-www-form-urlencoded; charset=UTF-8'
+        ctype = 'application/x-www-form-urlencoded; charset=ISO-8859-1'
 
         # default config settings
         defaults = dict(
